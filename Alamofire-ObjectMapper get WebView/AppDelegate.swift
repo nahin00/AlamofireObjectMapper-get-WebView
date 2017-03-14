@@ -1,8 +1,4 @@
-//
-//  AppDelegate.swift
-//  Alamofire-ObjectMapper get WebView
-//
-//  Created by Silicon Orchard Ltd on 3/14/17.
+
 //  Copyright © 2017 Nahin Ahmed. All rights reserved.
 //
 

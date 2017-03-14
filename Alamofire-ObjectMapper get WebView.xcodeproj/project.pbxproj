@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C0037A7C737AC27D69BAD52 /* Pods_Alamofire_ObjectMapper_get_WebView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 171465DA22D083188E2834C6 /* Pods_Alamofire_ObjectMapper_get_WebView.framework */; };
 		BC9559DA1E78150F00C9861E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9559D91E78150F00C9861E /* AppDelegate.swift */; };
 		BC9559DC1E78150F00C9861E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9559DB1E78150F00C9861E /* ViewController.swift */; };
 		BC9559DF1E78150F00C9861E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC9559DD1E78150F00C9861E /* Main.storyboard */; };
 		BC9559E21E78150F00C9861E /* Alamofire_ObjectMapper_get_WebView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BC9559E01E78150F00C9861E /* Alamofire_ObjectMapper_get_WebView.xcdatamodeld */; };
 		BC9559E41E78150F00C9861E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC9559E31E78150F00C9861E /* Assets.xcassets */; };
 		BC9559E71E78150F00C9861E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC9559E51E78150F00C9861E /* LaunchScreen.storyboard */; };
+		BC9559EF1E78156F00C9861E /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9559EE1E78156F00C9861E /* Request.swift */; };
+		BC9559F11E78158100C9861E /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9559F01E78158100C9861E /* Response.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		171465DA22D083188E2834C6 /* Pods_Alamofire_ObjectMapper_get_WebView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alamofire_ObjectMapper_get_WebView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C86ABB1C6CED849B2666471 /* Pods-Alamofire-ObjectMapper get WebView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alamofire-ObjectMapper get WebView.release.xcconfig"; path = "Pods/Target Support Files/Pods-Alamofire-ObjectMapper get WebView/Pods-Alamofire-ObjectMapper get WebView.release.xcconfig"; sourceTree = "<group>"; };
+		9B86098C51EF651C171959B2 /* Pods-Alamofire-ObjectMapper get WebView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alamofire-ObjectMapper get WebView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Alamofire-ObjectMapper get WebView/Pods-Alamofire-ObjectMapper get WebView.debug.xcconfig"; sourceTree = "<group>"; };
 		BC9559D61E78150F00C9861E /* Alamofire-ObjectMapper get WebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alamofire-ObjectMapper get WebView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC9559D91E78150F00C9861E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC9559DB1E78150F00C9861E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +30,8 @@
 		BC9559E31E78150F00C9861E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC9559E61E78150F00C9861E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC9559E81E78150F00C9861E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC9559EE1E78156F00C9861E /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		BC9559F01E78158100C9861E /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C0037A7C737AC27D69BAD52 /* Pods_Alamofire_ObjectMapper_get_WebView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00A4F3010A1B704F339B2F1D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				171465DA22D083188E2834C6 /* Pods_Alamofire_ObjectMapper_get_WebView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BC9559CD1E78150F00C9861E = {
 			isa = PBXGroup;
 			children = (
 				BC9559D81E78150F00C9861E /* Alamofire-ObjectMapper get WebView */,
 				BC9559D71E78150F00C9861E /* Products */,
+				DE24EF45989ED9206B4C08A9 /* Pods */,
+				00A4F3010A1B704F339B2F1D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +82,19 @@
 				BC9559E51E78150F00C9861E /* LaunchScreen.storyboard */,
 				BC9559E81E78150F00C9861E /* Info.plist */,
 				BC9559E01E78150F00C9861E /* Alamofire_ObjectMapper_get_WebView.xcdatamodeld */,
+				BC9559EE1E78156F00C9861E /* Request.swift */,
+				BC9559F01E78158100C9861E /* Response.swift */,
 			);
 			path = "Alamofire-ObjectMapper get WebView";
+			sourceTree = "<group>";
+		};
+		DE24EF45989ED9206B4C08A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B86098C51EF651C171959B2 /* Pods-Alamofire-ObjectMapper get WebView.debug.xcconfig */,
+				1C86ABB1C6CED849B2666471 /* Pods-Alamofire-ObjectMapper get WebView.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +104,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC9559EB1E78150F00C9861E /* Build configuration list for PBXNativeTarget "Alamofire-ObjectMapper get WebView" */;
 			buildPhases = (
+				11F17F3270439FEC6963D04E /* [CP] Check Pods Manifest.lock */,
 				BC9559D21E78150F00C9861E /* Sources */,
 				BC9559D31E78150F00C9861E /* Frameworks */,
 				BC9559D41E78150F00C9861E /* Resources */,
+				79DDB2C7F1D6A67C5F1322CE /* [CP] Embed Pods Frameworks */,
+				705C4D73DECDDBCAAD3AA04C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,14 +167,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		11F17F3270439FEC6963D04E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		705C4D73DECDDBCAAD3AA04C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Alamofire-ObjectMapper get WebView/Pods-Alamofire-ObjectMapper get WebView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79DDB2C7F1D6A67C5F1322CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Alamofire-ObjectMapper get WebView/Pods-Alamofire-ObjectMapper get WebView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BC9559D21E78150F00C9861E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BC9559E21E78150F00C9861E /* Alamofire_ObjectMapper_get_WebView.xcdatamodeld in Sources */,
+				BC9559EF1E78156F00C9861E /* Request.swift in Sources */,
 				BC9559DC1E78150F00C9861E /* ViewController.swift in Sources */,
 				BC9559DA1E78150F00C9861E /* AppDelegate.swift in Sources */,
+				BC9559F11E78158100C9861E /* Response.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +345,7 @@
 		};
 		BC9559EC1E78150F00C9861E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B86098C51EF651C171959B2 /* Pods-Alamofire-ObjectMapper get WebView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Alamofire-ObjectMapper get WebView/Info.plist";
@@ -274,6 +358,7 @@
 		};
 		BC9559ED1E78150F00C9861E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C86ABB1C6CED849B2666471 /* Pods-Alamofire-ObjectMapper get WebView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Alamofire-ObjectMapper get WebView/Info.plist";
@@ -303,6 +388,7 @@
 				BC9559ED1E78150F00C9861E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
