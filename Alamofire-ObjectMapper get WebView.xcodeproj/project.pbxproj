@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC9559DA1E78150F00C9861E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9559D91E78150F00C9861E /* AppDelegate.swift */; };
+		BC9559DC1E78150F00C9861E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9559DB1E78150F00C9861E /* ViewController.swift */; };
+		BC9559DF1E78150F00C9861E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC9559DD1E78150F00C9861E /* Main.storyboard */; };
+		BC9559E21E78150F00C9861E /* Alamofire_ObjectMapper_get_WebView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BC9559E01E78150F00C9861E /* Alamofire_ObjectMapper_get_WebView.xcdatamodeld */; };
+		BC9559E41E78150F00C9861E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC9559E31E78150F00C9861E /* Assets.xcassets */; };
+		BC9559E71E78150F00C9861E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC9559E51E78150F00C9861E /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BC9559D61E78150F00C9861E /* Alamofire-ObjectMapper get WebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alamofire-ObjectMapper get WebView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC9559D91E78150F00C9861E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BC9559DB1E78150F00C9861E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BC9559DE1E78150F00C9861E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC9559E11E78150F00C9861E /* Alamofire_ObjectMapper_get_WebView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Alamofire_ObjectMapper_get_WebView.xcdatamodel; sourceTree = "<group>"; };
+		BC9559E31E78150F00C9861E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC9559E61E78150F00C9861E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC9559E81E78150F00C9861E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC9559D31E78150F00C9861E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC9559CD1E78150F00C9861E = {
+			isa = PBXGroup;
+			children = (
+				BC9559D81E78150F00C9861E /* Alamofire-ObjectMapper get WebView */,
+				BC9559D71E78150F00C9861E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC9559D71E78150F00C9861E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC9559D61E78150F00C9861E /* Alamofire-ObjectMapper get WebView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC9559D81E78150F00C9861E /* Alamofire-ObjectMapper get WebView */ = {
+			isa = PBXGroup;
+			children = (
+				BC9559D91E78150F00C9861E /* AppDelegate.swift */,
+				BC9559DB1E78150F00C9861E /* ViewController.swift */,
+				BC9559DD1E78150F00C9861E /* Main.storyboard */,
+				BC9559E31E78150F00C9861E /* Assets.xcassets */,
+				BC9559E51E78150F00C9861E /* LaunchScreen.storyboard */,
+				BC9559E81E78150F00C9861E /* Info.plist */,
+				BC9559E01E78150F00C9861E /* Alamofire_ObjectMapper_get_WebView.xcdatamodeld */,
+			);
+			path = "Alamofire-ObjectMapper get WebView";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC9559D51E78150F00C9861E /* Alamofire-ObjectMapper get WebView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC9559EB1E78150F00C9861E /* Build configuration list for PBXNativeTarget "Alamofire-ObjectMapper get WebView" */;
+			buildPhases = (
+				BC9559D21E78150F00C9861E /* Sources */,
+				BC9559D31E78150F00C9861E /* Frameworks */,
+				BC9559D41E78150F00C9861E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Alamofire-ObjectMapper get WebView";
+			productName = "Alamofire-ObjectMapper get WebView";
+			productReference = BC9559D61E78150F00C9861E /* Alamofire-ObjectMapper get WebView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC9559CE1E78150F00C9861E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Nahin Ahmed";
+				TargetAttributes = {
+					BC9559D51E78150F00C9861E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BC9559D11E78150F00C9861E /* Build configuration list for PBXProject "Alamofire-ObjectMapper get WebView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC9559CD1E78150F00C9861E;
+			productRefGroup = BC9559D71E78150F00C9861E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC9559D51E78150F00C9861E /* Alamofire-ObjectMapper get WebView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC9559D41E78150F00C9861E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC9559E71E78150F00C9861E /* LaunchScreen.storyboard in Resources */,
+				BC9559E41E78150F00C9861E /* Assets.xcassets in Resources */,
+				BC9559DF1E78150F00C9861E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC9559D21E78150F00C9861E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC9559E21E78150F00C9861E /* Alamofire_ObjectMapper_get_WebView.xcdatamodeld in Sources */,
+				BC9559DC1E78150F00C9861E /* ViewController.swift in Sources */,
+				BC9559DA1E78150F00C9861E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BC9559DD1E78150F00C9861E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC9559DE1E78150F00C9861E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC9559E51E78150F00C9861E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC9559E61E78150F00C9861E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC9559E91E78150F00C9861E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC9559EA1E78150F00C9861E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC9559EC1E78150F00C9861E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Alamofire-ObjectMapper get WebView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nahinahmed.Alamofire-ObjectMapper-get-WebView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BC9559ED1E78150F00C9861E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Alamofire-ObjectMapper get WebView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nahinahmed.Alamofire-ObjectMapper-get-WebView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC9559D11E78150F00C9861E /* Build configuration list for PBXProject "Alamofire-ObjectMapper get WebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC9559E91E78150F00C9861E /* Debug */,
+				BC9559EA1E78150F00C9861E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC9559EB1E78150F00C9861E /* Build configuration list for PBXNativeTarget "Alamofire-ObjectMapper get WebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC9559EC1E78150F00C9861E /* Debug */,
+				BC9559ED1E78150F00C9861E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BC9559E01E78150F00C9861E /* Alamofire_ObjectMapper_get_WebView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BC9559E11E78150F00C9861E /* Alamofire_ObjectMapper_get_WebView.xcdatamodel */,
+			);
+			currentVersion = BC9559E11E78150F00C9861E /* Alamofire_ObjectMapper_get_WebView.xcdatamodel */;
+			path = Alamofire_ObjectMapper_get_WebView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BC9559CE1E78150F00C9861E /* Project object */;
+}
